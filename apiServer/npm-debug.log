@@ -1,0 +1,17 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'cache', 'clean' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 error Error: EACCES, unlink '/home/g/.npm/Base64/0.2.1'
+4 error  { [Error: EACCES, unlink '/home/g/.npm/Base64/0.2.1'] errno: 3, code: 'EACCES', path: '/home/g/.npm/Base64/0.2.1' }
+5 error Please try running this command again as root/Administrator.
+6 error System Linux 3.13.0-46-generic
+7 error command "/usr/local/bin/node" "/usr/local/bin/npm" "cache" "clean"
+8 error cwd /home/g/Projects/hackathons/angelHack/todoAPIjs
+9 error node -v v0.10.32
+10 error npm -v 1.4.28
+11 error path /home/g/.npm/Base64/0.2.1
+12 error code EACCES
+13 error errno 3
+14 error stack Error: EACCES, unlink '/home/g/.npm/Base64/0.2.1'
+15 verbose exit [ 3, true ]
